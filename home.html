@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+	<title>Bellevue Skatepark</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow"/>
+
+<!-- Remy Sharp Shim --> 
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+<![endif]-->
+
+	<link href="css/style.css" rel="stylesheet" /> 
+	<!-- Type style in here  
+    <style type="text/css">
+	 </style>
+     -->
+     <script>
+						$('.hamburger').on('click', function(e) {
+			  // Prevent link from jumping to the top of the page
+			  e.preventDefault();
+			  // If menu is already showing, slide it up. Otherwise, slide it down.
+			  $('.menu').toggleClass('slide-down');
+			});
+	 </script>
+     
+</head>
+
+<body>
+        <div id="header">
+            	<h1><a href="index.php"><img src="images/logo.png"  id="logo" alt="logo"></a></h1>
+                <ul>
+                    <li><a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook"></a></li>
+                    <li><a href="http://www.instagram.com"><img src="images/instagram.png" alt="instagram"></a></li>
+                    <li><a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter"></a></li>
+                    <li><a href="http://www.youtube.com"><img src="images/youtube.png" alt="youtube"></a></li>
+                 </ul>       
+        </div><!--header end-->
+       <!-- <nav id="nav-main">
+            <ul>
+            <li><a href="index.php" class="home-link">Home</a></li>
+            <li><a href="pricing.php" class="pricing-link">Pricing</a></li>
+            <li><a href="services.php" class="services-link">Services</a></li>
+            <li><a href="skatepark-rules.php" class="skatepark-link">Rules</a></li>
+             <li><a href="blog.php" class="blog-link">Blog</a></li>
+             <li><a href="about.php" class="about-link">About</a></li>
+              <li><a href="contact.php" class="contact-link">Contact</a></li>
+        </ul>-->
+         <div id="nav-mobile">
+    <a href="#" class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </a>
+    <ul class="clearfix menu">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="pricing.php">Pricing</a></li>
+       <li><a href="services.php">Services</a></li>
+      <li><a href="skatepark-rules.php">Rules</a></li>
+      <li><a href="blog.php">Blog</a></li>
+      <li><a href="about.php">About</a></li>
+      <li><a href="contact.php">Contact</a></li>
+    </ul>
+  </div>
+      
+    
+        <div id="middle"> <!--this is the middle div-->
+        
+        		<div id="featured"><!--this is the featured post div-->
+                    <h1>Featured Video</h1>
+                     <p><iframe width="100%" height="450px" src="https://www.youtube.com/embed/cboRjQaf4nY" frameborder="0" allowfullscreen></iframe></p>	
+                     </div><!--end of featured post-->
+                    
+                <div id="content"> <!--content beginning-->
+                 	<h1>Lastest Posts</h1>
+                    <div class="latest-row-1"><!--content-left beginning-->
+                           <a href="latest-row-1.php"><img src="images/bellevue-skatepark-2.jpg" class="row-1-pic" alt="latest post 1, bellevue skatpark"></a>
+                            <p class="row-1-text">Watch the latest "Girls Night Out" as Shiba and the gang put down some moves and get crazy!</p>
+                </div><!--class end--><br>
+
+                <div class="latest-row-1"><!--content-left beginning-->
+                            <p><a href="latest-row-1.php"><img src="images/skateboard-1.jpg" class="row-1-pic" alt="latest post 2, bellevue skatpark"></a></p>
+                            <p class="row-1-text">Danny Trujillo takes you on a trick tip journey.</p>
+                </div><!--class end-->
+                </div><!--content end-->
+            
+                <div id="sidebar"> <!--sidebar beginning-->
+                        <h2>Hours</h2>
+                        <p id="hours">Monday - Thursday<br>
+                         7am - 9pm<br>
+                           Friday - Sunday<br>
+                         7am - 12am</p>
+                           
+                         <h2>Location</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.020689168835!2d-122.15290928415595!3d47.6257290946492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906daa681b822b%3A0xd6d99242ddd480f5!2sBellevue+Skate+Park!5e0!3m2!1sen!2sus!4v1456371703631" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        
+                        <h2>Entry</h2>
+                        <p id="hours">Per Hour<br>
+                         $5<br>
+                           3 Hour Session<br>
+                         $10<br>
+                         All Day Pass<br>
+                         $15<br>
+						 Helmets are required.<br>
+						 Waivers to be read and signed upon entry.</p>
+                
+                </div> <!--sidebar end-->
+              
+                      
+       </div> <!--close middle div-->
+      <footer>
+       <p>Web Design © <a href="../index.html">Matthew Headley</a> 2015.<br>Photographs © Internet 2015. All Right Reserved.</p>
+    
+		</footer>
+        
+
+</body>
+</html>
