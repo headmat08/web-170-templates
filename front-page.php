@@ -1,34 +1,9 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title> Benjamin the Broker</title>
-    <!-- Styles-->
-    <link rel="stylesheet" a  href="style.css" type="text/css" media="all" />
-    <!-- Scripts-->
+<?php get_header(); ?>
 
-</head>
-<body>
-    <!-- Header Begins-->
-    <div id="header">
-        
-        <!-- The logo is here --> 
-        <h1 id="logo"><a href="home.html"><img id="logo" src="images/benjamin-logo.jpg" width="30" height="30" alt="logo"></a></h1>
-        
-        <!-- Navigation Begins-->
-        <div id="navigation">
-            <ul id="navigation-items">
-                <li><a href="main.html">Home</a></li>
-                <li><a href="main.html">Properties</a></li>
-                <li><a href="main.html">About</a></li>
-                <li><a href="main.html">Contact</a></li>
-            </ul>
-        </div>
-        <!-- Navigation Ends-->
-    </div>
-    <!-- Header Ends-->
-    
-    <!--blockquote and search option with big picture divider-->
+<!-- Content text begins-->
+        <div id="content">
+            
+<!--blockquote and search option with big picture divider-->
     <img id="front-page" src="images/seattle-space-needle.jpg" alt="seattle-front-page">
     
         <!-- Page divider begins-->
@@ -140,49 +115,12 @@
             
         </div>
         <!-- sidebar Ends-->
+            
         
-    </div>
-    <!-- Middle Ends-->
-    
-    <!-- Footer Begins-->
-    <div id="footer">
-        
-         <!-- Footer Navigation Begins-->
-        <div id="footer-navigation">
-            <h2>Benjamin</h2>
-            <ul id="footer-navigation-items">
-                <li><a href="main.html">Home</a></li>
-                <li><a href="main.html">Contact</a></li>
-                <li><a href="main.html">About</a></li>
-            </ul>
         </div>
-        <!--Footer Navigation Ends-->
+        <!--Content Text Ends-->
         
-        <div id="sign-up-footer">
-            <!--Sign updates form-->
-            <h2>Sign up for Updates</h2>
-            <form>
-
-            </form>
-        </div>
+          
+  <?php get_sidebar(); ?>
         
-        <div id="footer-contact">
-        <!--Contact-Footer-->
-        <h2>Contact</h2>
-        <p>123 Neverland Ave S<br>
-            Seattle, WA 98006
-        </p>
-           <!-- <ul id="footer-social-list">
-                <li><a href="images/facebook-icon.jpg"></a></li>
-                <li><a href="images/email-icon.png"></a></li>
-                <li><a href="images/linkedin-icon.png"></a></li>
-            </ul>
-            <span><a href="main.html">Contact Me</a></span> -->
-        </div> 
-        
-        
-        
-    </div>
-    <!-- Footer Ends-->
-</body>
-</html>
+  <?php get_footer(); ?>

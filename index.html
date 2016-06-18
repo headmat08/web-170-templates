@@ -5,7 +5,16 @@
     <title> Benjamin the Broker</title>
     <!-- Styles-->
     <link rel="stylesheet" a  href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
     <!-- Scripts-->
+    <script src="scripts/jquery.flexslider.js"></script>
+    <!-- Begin Flex Slider -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() { // enable function upon window load
+    $('.flexslider').flexslider(); // call flexslider function
+  });
+</script>
+<!-- End Flex Slider -->
 
 </head>
 <body>
@@ -39,6 +48,16 @@
     
     <!-- Middle Begins-->
     <div id="middle">
+    
+    <!-- Begin Flex Slider -->
+    <div class="flexslider">
+        <ul class="slides">
+        <li><img src="images/Aerial-Seattle-Small.jpg" width="960" height="400" alt="Image One"></li>
+        <li><img src="images/seattle-blog-featured.jpg" width="960" height="400" alt="Image Two"></li>
+        <li><img src="images/seattle-space-needle.jpg" width="960" height="400" alt="Image Three"></li>
+        </ul>
+    </div>
+    <!-- End Flex Slider -->
             
         <!-- Content text begins-->
         <div id="content">
